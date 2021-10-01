@@ -1,1 +1,9 @@
 # Number-Guesser
+
+I did this program as an assignment for CS232: Computer Programming II, a class about learning to code in Java.
+
+The basic concept of this program was to have the program create a secret, random number between 1 and 100 and prompt the user to try and guess it within 15 guesses.
+
+The program would first create a secret, random number between 1 and 100. Once the number is created, the program asks the user for a guess and increments(adds to) the user's number of guesses. The program then goes into a while loop, checking if the secret number is guessed, or if the number of guesses was greater than 15. Inside the loop the program compares teh secret number to the user's guess. If the user's guess is too high, the program will tell the user it is too high. And if the quess if too low, the program will tell the user it is too low. After checking, the program aks the user for another guess and increments(adds to) the user's number of guesses. After asking, the program loops, comparing the secret number to the user's and getting new guesses. Once the secret number is guessed or the user has guessed 15 times, the loop ends. The program then checks to see if the secret number is guessed and, if so, will output a "Congratulations!" message telling the user how many guesses they used. Otherwise, the user ran out of guesses and the program outputs a "Sorry!" message telling the user the secret number. Once this end message is output, the program ends.
+
+This assignment was about learning how to accuratly use loops and logical gates. The program had to use a while loop to continue the program and the loop had to use an AND gate to check if the secret number was guessed and to see if the user had guessed more than 15 times. It was also about comparing variables and constantly using new input.
